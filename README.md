@@ -5,6 +5,10 @@
 
 Nice and simple replacement of a boring spinner loader. Do not block your users while the data is on the way!
 
+<p>
+  <img src="example.gif" width="225">
+</p>
+
 ## Usage
 
 1. Import the package
