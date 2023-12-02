@@ -1,7 +1,7 @@
 import XCTest
-@testable import ShimmeringView
+@testable import ShimmeringUiView
 
-final class ShimmeringViewTests: XCTestCase {
+final class ShimmeringUiViewTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

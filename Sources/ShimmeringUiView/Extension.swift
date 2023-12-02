@@ -13,12 +13,12 @@ public extension View {
     
     @ViewBuilder func shimmering(
         active: Bool = true,
-        animation: Animation = ShimmeringView.animation,
-        gradient: Gradient = ShimmeringView.gradient,
+        animation: Animation = ShimmeringUiView.animation,
+        gradient: Gradient = ShimmeringUiView.gradient,
         bandSize: CGFloat = 0.3
     ) -> some View {
         if active {
-            modifier(ShimmeringView(animation: animation, gradient: gradient, bandSize: bandSize))
+            modifier(ShimmeringUiView(animation: animation, gradient: gradient, bandSize: bandSize))
         } else {
             self
         }
