@@ -5,7 +5,7 @@ import SwiftUI
 
 @available(iOS 14.0, *)
 @available(macOS 10.15, *)
-public struct ShimmeringView: ViewModifier {
+public struct ShimmeringUiView: ViewModifier {
     
     @Environment(\.layoutDirection) private var direction
     
