@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 import SwiftUI
-
+ 
 @available(iOS 14.0, *)
 @available(macOS 10.15, *)
 public struct ShimmeringUiView: ViewModifier {
